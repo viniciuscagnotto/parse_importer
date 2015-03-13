@@ -110,6 +110,11 @@
 	}
 
 
+	print "<pre>";
+	print_r($_FILES);
+	print "</pre>";
+	
+	
 	//Loading CSV
 	if($_FILES['csv']['tmp_name'] == "")
 		print "<script>document.location = 'index.php';</script>";
@@ -117,6 +122,7 @@
 	$tmpName = $_FILES['csv']['tmp_name'];
 	$csvAsArray = array_map('str_getcsv', file($tmpName));
 	$linesCount = count($csvAsArray);
+	print "$linesCount <br />";
 	
 	for($i = 0; $i < $linesCount; $i++){
  		$row =  $csvAsArray[$i][0];
