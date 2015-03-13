@@ -1,5 +1,4 @@
 <?php header("Content-Type: text/html; charset=ISO-8859-1",true);?>
-<?php phpinfo(); ?>
 <!DOCTYPE html>
 <head>
 	<title>Gatópolis - Main</title>
