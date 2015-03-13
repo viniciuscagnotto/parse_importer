@@ -8,22 +8,14 @@
 	<meta name="viewport" content="width=device-width">
   
 <?php
-
-	print "1<br />";
-
 	//PARSE STUFF
 	require 'vendor/autoload.php';
-	
-	print "2<br />";
 	use Parse\ParseClient;
 	use Parse\ParseObject;
 	use Parse\ParseQuery;
 	use Parse\ParseException;
-	
-	print "3<br />";
 	ParseClient::initialize('53aqM9OxBLBUZb3tlFjWeAyiupJPevW0541c8lQx', 'Nm8C3AeQeXc3tMJxxcj3IWEmqdumFJ9rCFCgu8yQ', 'Xs2akVA0SKSiqugS91jMxc7aXaHZdDQCNENJTUSP');
 
-	print "4<br />";
 	//HELPERS
 	$arrayData = array("School"=>array(),"Teacher"=>array(),"StudentGroup"=>array(),"Student"=>array(),"StudentGroupTeacher"=>array());
 	
