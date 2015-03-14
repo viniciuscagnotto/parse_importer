@@ -15,9 +15,9 @@
 	use Parse\ParseException;
 	
 	//Vinicius Parse
-	ParseClient::initialize('53aqM9OxBLBUZb3tlFjWeAyiupJPevW0541c8lQx', 'Nm8C3AeQeXc3tMJxxcj3IWEmqdumFJ9rCFCgu8yQ', 'Xs2akVA0SKSiqugS91jMxc7aXaHZdDQCNENJTUSP');
+	//ParseClient::initialize('53aqM9OxBLBUZb3tlFjWeAyiupJPevW0541c8lQx', 'Nm8C3AeQeXc3tMJxxcj3IWEmqdumFJ9rCFCgu8yQ', 'Xs2akVA0SKSiqugS91jMxc7aXaHZdDQCNENJTUSP');
 	//Test
-	//ParseClient::initialize('sttB7b180sLTuH6HC7UqI32dbtXFGTlCq0pExKC2', 'aHh2T53yx3rVZBjsPtgBpo7CUTkkzopHAMCvt6JY', 'CvT7EwhkS4H3eRqPEWqN92geoYGFUROravUjCTRF');
+	ParseClient::initialize('sttB7b180sLTuH6HC7UqI32dbtXFGTlCq0pExKC2', 'aHh2T53yx3rVZBjsPtgBpo7CUTkkzopHAMCvt6JY', 'CvT7EwhkS4H3eRqPEWqN92geoYGFUROravUjCTRF');
 	//Dedinhos
 	//ParseClient::initialize('gcE3I08oQzulToJoW1aW4sPga3PpBdeqWNkY4wMh', 'fPXSwer7se5781hhwrNGNLlpEHtVyv1pjXkrK56H', 'Hbs5KxubjlWKQ9YY8hxvU9a9FQVUISwfM1xYVKVi');
 	
@@ -106,7 +106,7 @@
 	for($i = 0; $i < $linesCount; $i++){
 		$row =  $csvAsArray[$i][0];
 		$cols = explode(";", $row);
-		print "------------------------ LINHA $i - $row<br />";
+		//print "------------------------ LINHA $i - $row<br />";
 	
 //  	* COLS
 //  	* 0 = nome da escola
